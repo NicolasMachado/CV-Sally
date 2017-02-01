@@ -1,0 +1,58 @@
+html {
+	font-family: Georgia, serif;
+}
+
+p {
+	font-size: 85%;
+}
+
+h1{
+	background-color: #d4e1f4;
+	padding: 10px;
+    border: 1px solid #aaa;
+    margin-bottom: 50px;
+}
+
+h2{
+	background-color: #dee7f4; 
+	padding: 5px;
+}
+
+a {
+	text-decoration:none;
+	color: #0000ff;
+}
+
+a:hover {
+	color: #aaaaff;
+}
+
+.wrapper {
+	margin:0 auto;
+	text-align: center;
+    border: 1px solid #aaa;
+    background-color: #eff5ff;
+    width: 50%;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.description {
+	padding: 5px;
+}
+
+.sassycomment {
+	font-size: 70%;	
+}
+
+.date::before {
+	content: "Duration: ";
+}
+
+.company_name::before {
+	content: "Company: ";
+}
+
+.jobtitle::before {
+	content: "Job title: ";
+}
